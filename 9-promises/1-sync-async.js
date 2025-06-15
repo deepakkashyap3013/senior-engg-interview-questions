@@ -15,9 +15,9 @@ rejected: meaning that the operation failed.
 // In Javascript, first all sync code gets executed then async code get's the chance to enter the callstack to get executed
 
 // Sync
-// console.log("sync start");
-// console.log("sync code is getting executed");
-// console.log("sync end");
+console.log("sync start");
+console.log("sync code is getting executed");
+console.log("sync end");
 
 /* o/p:
 sync start
@@ -26,11 +26,11 @@ sync end
 */
 
 // Async
-// console.log("async start");
-// setTimeout(() => {
-//   console.log("async code now got executed");
-// }, 0);
-// console.log("async code end");
+console.log("async start");
+setTimeout(() => {
+  console.log("async code now got executed");
+}, 0);
+console.log("async code end");
 
 /* o/p:
 async start

@@ -1,24 +1,24 @@
 // Basic example of promise:
 
-// console.log("Start");
+console.log("Start");
 
-// const starred = new Promise((resolve, reject) => {
-//   setTimeout(() => {
-//     const result = true;
-//     if (result) resolve("Starred this repo");
-//     else reject("Failed to star this repo");
-//   }, 1000);
-// });
+const starred = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    const result = true;
+    if (result) resolve("Starred this repo");
+    else reject("Failed to star this repo");
+  }, 1000);
+});
 
-// starred
-//   .then((res) => {
-//     console.log(res);
-//   })
-//   .catch((err) => {
-//     console.log(err);
-//   });
+starred
+  .then((res) => {
+    console.log(res);
+  })
+  .catch((err) => {
+    console.log(err);
+  });
 
-// console.log("End");
+console.log("End");
 
 // Q: How you gonna refactor the below code using promises ?
 
@@ -82,23 +82,23 @@ function shareTheVideo(video) {
 
 // Approach 1:
 
-// importantAction("Deepak")
-//   .then((res) => {
-//     console.log(res);
+importantAction("Deepak")
+  .then((res) => {
+    console.log(res);
 
-//     likeTheVideo("Javascript interview question notes")
-//       .then((res) => {
-//         console.log(res);
+    likeTheVideo("Javascript interview question notes")
+      .then((res) => {
+        console.log(res);
 
-//         shareTheVideo("Javascript interview question notes")
-//           .then((res) => {
-//             console.log(res);
-//           })
-//           .catch((err) => console.log(err));
-//       })
-//       .catch((err) => console.log(err));
-//   })
-//   .catch((err) => console.log(err));
+        shareTheVideo("Javascript interview question notes")
+          .then((res) => {
+            console.log(res);
+          })
+          .catch((err) => console.log(err));
+      })
+      .catch((err) => console.log(err));
+  })
+  .catch((err) => console.log(err));
 
 // WOOOWWW!! this is again a pyramid like structure...
 // How can we resolve it
@@ -106,19 +106,19 @@ function shareTheVideo(video) {
 
 // Approach 2:
 
-// importantAction("Deepak")
-//   .then((res) => {
-//     console.log(res);
-//     return likeTheVideo("Javascript interview question notes");
-//   })
-//   .then((res) => {
-//     console.log(res);
-//     return shareTheVideo("Javascript interview question notes");
-//   })
-//   .then((res) => {
-//     console.log(res);
-//   })
-//   .catch((err) => console.log(err));
+importantAction("Deepak")
+  .then((res) => {
+    console.log(res);
+    return likeTheVideo("Javascript interview question notes");
+  })
+  .then((res) => {
+    console.log(res);
+    return shareTheVideo("Javascript interview question notes");
+  })
+  .then((res) => {
+    console.log(res);
+  })
+  .catch((err) => console.log(err));
 
 // Approach 3:  promise combinator
 

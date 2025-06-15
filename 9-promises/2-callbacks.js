@@ -1,14 +1,14 @@
-// console.log("start");
-// function importantAction(username) {
-//   setTimeout(() => {
-//     return `Subscribe to ${username}`;
-//   }, 0);
-// }
-// const msg = importantAction("Deepak");
+console.log("start");
+function importantAction(username) {
+  setTimeout(() => {
+    return `Subscribe to ${username}`;
+  }, 0);
+}
+const msg = importantAction("Deepak");
 
-// console.log(msg);
+console.log(msg);
 
-// console.log("stop");
+console.log("stop");
 
 /*
 start
@@ -59,7 +59,7 @@ Share the Javascript interview question notes
 */
 
 /*
-The blow code block is called callback hell and creates difficulty in reading code because of deep nesting
+The blow code block is called callback hell and creates difficulty in reading and understanding code because of deep nesting
 so promises have a better syntax through then and catch
 
 bdw this is also called as "pyramid of doom"

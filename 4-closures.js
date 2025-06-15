@@ -142,14 +142,14 @@ console.timeEnd("12");
 
 // Ans: using closure
 
-// for (var i = 0; i < 5; i++) {
-//   function inner(i) {
-//     setTimeout(() => {
-//       console.log(i);
-//     }, i * 1000);
-//   }
-//   inner(i);
-// }
+for (var i = 0; i < 5; i++) {
+  function inner(i) {
+    setTimeout(() => {
+      console.log(i);
+    }, i * 1000);
+  }
+  inner(i);
+}
 
 // Q: How would you use a closure to create a private counter ?
 

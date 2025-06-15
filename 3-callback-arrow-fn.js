@@ -35,11 +35,11 @@ displaySquare(square);
 
 // 2. Function scope: guess the output
 
-// for (var i = 0; i < 5; i++) {
-//   setTimeout(() => {
-//     console.log(i);
-//   }, i * 1000);
-// }
+for (var i = 0; i < 5; i++) {
+  setTimeout(() => {
+    console.log(i);
+  }, i * 1000);
+}
 
 /**
  * o/p:
@@ -56,11 +56,11 @@ displaySquare(square);
  */
 
 // 3. How can you avoid 5 being printed in the console
-// for (let i = 0; i < 5; i++) {
-//   setTimeout(() => {
-//     console.log(i);
-//   }, i * 1000);
-// }
+for (let i = 0; i < 5; i++) {
+  setTimeout(() => {
+    console.log(i);
+  }, i * 1000);
+}
 
 /**
  * o/p:
