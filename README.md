@@ -1,5 +1,7 @@
-# js-interview-questions-advanced
-From Roadside coder
+# senior-engg-interview-questions
+
+### Javascript concepts
+[Roadside coder yt](https://www.youtube.com/playlist?list=PLKhlp2qtUcSaCVJEt4ogEFs6I41pNnMU5)
 
 ### Node specific questions
 [Check collection](./node-js-interview-questions.md)
