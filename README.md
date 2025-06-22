@@ -15,6 +15,7 @@
 
 ### System Design concepts:
 [Algomaster Article](https://blog.algomaster.io/p/30-system-design-concepts)
+[YT Video Link](https://www.youtube.com/watch?v=s9Qh9fWeOAk)
 
 ### System Design Practice:
 [Neetcode System Design](https://neetcode.io/practice?tab=systemDesign)
