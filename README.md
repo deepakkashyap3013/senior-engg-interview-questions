@@ -6,6 +6,9 @@
 ### Node specific questions
 [Check collection](./node-js-interview-questions.md)
 
+### SQL practice
+[SQL Practice](https://www.sql-practice.com/)
+
 ### DSA Practice
 [Neetcode 150](https://neetcode.io/practice?tab=neetcode150)
 
