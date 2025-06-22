@@ -8,6 +8,7 @@
 
 ### SQL practice
 [SQL Practice](https://www.sql-practice.com/)
+[YT Video](https://www.youtube.com/watch?v=nYmoQ4r0DVw)
 
 ### DSA Practice
 [Neetcode 150](https://neetcode.io/practice?tab=neetcode150)
