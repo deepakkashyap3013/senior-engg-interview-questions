@@ -21,3 +21,7 @@
 
 ### System Design Practice:
 - [Neetcode System Design](https://neetcode.io/practice?tab=systemDesign)
+
+### Cloud Computing
+- [Learn Ocean](https://learning-ocean.com/)
+- [Gaurav Sharma](https://www.youtube.com/@GouravSharma)
